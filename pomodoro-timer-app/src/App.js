@@ -35,6 +35,7 @@ function App() {
 
     }
 
+    
     return () => clearInterval(timer);
   }, [isRunning, time, mode]);
 
