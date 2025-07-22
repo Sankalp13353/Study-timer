@@ -19,8 +19,6 @@ function App() {
       }, 1000);
     }
 
-    
-
     if (isRunning && time === 0) {
 
       if (mode === "Work") {
