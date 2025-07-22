@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
-  const WORK_DURATION = 25 * 60;
-  const BREAK_DURATION = 5 * 60;
+  const WORK_DURATION = 10;
+  const BREAK_DURATION = 5;
 
   const [time, setTime] = useState(WORK_DURATION);
   const [isRunning, setIsRunning] = useState(false);
